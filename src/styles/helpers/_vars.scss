@@ -1,0 +1,30 @@
+/*
+	vars
+*/
+
+$fonts: '../fonts/';
+$images: '../images/';
+
+
+$breakpoints: (
+	xs: 375px,
+	sm: 768px,
+	md: 1024px,
+	lg: 1145px,
+);
+
+// wrap
+$container-p: 15px;
+$container-width: 1140px;
+
+// colors
+$white: #fff;
+$charcoal: #464646;
+$gray: #333333;
+$red: #C30F23;
+$strongRed: #8C0B19;
+
+
+// transitions
+$transition_dur: .5s;
+$transition_tfn: cubic-bezier(.165, .84, .44, 1);

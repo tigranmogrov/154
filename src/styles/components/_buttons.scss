@@ -1,0 +1,35 @@
+/* btn */
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 430px;
+	margin: 0 auto;
+	padding: 18px 15px;
+	height: 80px;
+	border: 2px solid transparent;
+	border-radius: 0;
+	background-color: #D24B5A;
+
+	word-break: break-word;
+	position: relative;
+	text-align: center;
+	outline: none;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 24px;
+	color: $white;
+
+
+	@at-root :root.hover &:hover {
+		.wer {
+			&:after {
+				transform:scale(1.1);
+				background-color: yellow;
+			}
+		}
+	}
+}

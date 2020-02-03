@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+	<meta name="keywords" content="<%= htmlWebpackPlugin.options.keywords %>">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- og format -->
+	<meta property="og:title" content="">
+	<!-- bar color -->
+	<meta name="theme-color" content="#fff">
+	<meta name="msapplication-navbutton-color" content="#fff">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+	<!-- favicon -->
+	<!--<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">-->
+	<!--<link rel="apple-touch-icon" href="images/apple-touch-icon152.png" sizes="152x152">-->
+	<title>Home</title>
+</head>
+<body>
+<div class="wrapper" id="wrapper">
+	<%= _.template(require('./parts/header.html'))() %>
+	<div class="app" id="app">
+
+		<section class="company">
+			<div class="container">
+				<div class="section-header">
+					<div class="section-header__image-wrap">
+						<div class="section-header__image">
+							<img src="/images/company/company_top_image.jpg" alt="image description">
+						</div>
+					</div>
+					<div class="section-header__box">
+						<div class="section-header__box-inner">
+							<div class="section-header__box-title">
+								<h1 class="primary-title">事業内容</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="inner-offset">
+					<div class="company__content">
+						<dl class="company__info-list">
+							<div class="company__info-item">
+								<dt class="company__info-term">
+									<h3 class="third-title color-red">会社名</h3>
+								</dt>
+								<dd class="company__info-definition">
+									<p class="company__info-definition-text">株式会社<br class="mb">ビューティーテック・ジャパン</p>
+								</dd>
+							</div>
+							<div class="company__info-item">
+								<dt class="company__info-term">
+									<h3 class="third-title color-red">代表者</h3>
+								</dt>
+								<dd class="company__info-definition">
+									<p class="company__info-definition-text">加藤　伸二</p>
+								</dd>
+							</div>
+							<div class="company__info-item">
+								<dt class="company__info-term">
+									<h3 class="third-title color-red">所在地</h3>
+								</dt>
+								<dd class="company__info-definition">
+									<h3 class="third-title title-margin">東京本社</h3>
+									<p class="company__info-definition-text text-margin">〒104-0032<br class="mb">　東京都中央区八丁堀1-7-7 <br class="mb">八重洲レザンビル６階</p>
+									<h3 class="third-title title-margin">館林工場</h3>
+									<p class="company__info-definition-text">〒374-0004<br class="mb"> 　群馬県館林市楠木町　3966-5</p>
+								</dd>
+							</div>
+							<div class="company__info-item">
+								<dt class="company__info-term">
+									<h3 class="third-title color-red">電話番号</h3>
+								</dt>
+								<dd class="company__info-definition">
+									<a class="company__info-definition-link" href="tel:0276-55-205">TEL:0276-55-2015</a>
+								</dd>
+							</div>
+							<div class="company__info-item">
+								<dt class="company__info-term">
+									<h3 class="third-title color-red">創立</h3>
+								</dt>
+								<dd class="company__info-definition">
+									<p class="company__info-definition-text">2019年2月25日</p>
+								</dd>
+							</div>
+							<div class="company__info-item">
+								<dt class="company__info-term">
+									<h3 class="third-title color-red">事業内容 1</h3>
+								</dt>
+								<dd class="company__info-definition">
+									<p class="company__info-definition-text">化粧品製造・OEM<br class="mb">・ODMトータルサポート</p>
+								</dd>
+							</div>
+							<div class="company__info-item">
+								<dt class="company__info-term">
+									<h3 class="third-title color-red">資本金</h3>
+								</dt>
+								<dd class="company__info-definition">
+									<p class="company__info-definition-text">1000万</p>
+								</dd>
+							</div>
+							<div class="company__info-item">
+								<dt class="company__info-term">
+									<h3 class="third-title color-red">従業員数</h3>
+								</dt>
+								<dd class="company__info-definition">
+									<p class="company__info-definition-text">46人</p>
+								</dd>
+							</div>
+							<div class="company__info-item">
+								<dt class="company__info-term">
+									<h3 class="third-title color-red">許可</h3>
+								</dt>
+								<dd class="company__info-definition">
+									<p class="company__info-definition-text">・医療部外品製造業<br class="mb">　・化粧品製造業</p>
+								</dd>
+							</div>
+							<div class="company__info-item">
+								<dt class="company__info-term"><h3 class="third-title color-red">URL</h3></dt>
+								<dd class="company__info-definition"></dd>
+							</div>
+							<div class="company__info-item">
+								<dt class="company__info-term">
+									<h3 class="third-title color-red">アクセス</h3>
+								</dt>
+								<dd class="company__info-definition">
+									<div class="map">
+										<iframe
+											src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.2095306851807!2d36.322804715884004!3d50.00742782706784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x412709fcb457c77b%3A0x7e21d4d2419841f7!2z0LLRg9C70LjRhtGPINCS0LDRgdC40LvRjyDQodGC0YPRgdCwLCAxLCDQpdCw0YDQutGW0LIsINCl0LDRgNC60ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA2MTAwMA!5e0!3m2!1sru!2sua!4v1577273902940!5m2!1sru!2sua"
+											style="border:0;">
+
+										</iframe>
+									</div>
+								</dd>
+							</div>
+						</dl>
+
+							<button class="btn"><span class="btn-icon"><svg width="56" height="41" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M28.154 29.028l-6.835-6.066L1.86 39.93a4.08 4.08 0 002.734 1.065h47.12a4.08 4.08 0 002.734-1.065l-19.46-16.968-6.834 6.066z" fill="#fff"/><path d="M54.367 2.06A4.08 4.08 0 0051.635.996H4.593c-1.045 0-2.01.41-2.734 1.066l26.214 22.95 26.293-22.95zM.654 4.52v33.278l18.977-16.475L.654 4.52zM36.677 21.323l18.977 16.475V4.438L36.677 21.323z" fill="#fff"/></svg></span>info@beauty-tech.co.jp</button>
+
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+	</div>
+	<%= _.template(require('./parts/footer.html'))() %>
+</div>
+</body>
+</html>
+

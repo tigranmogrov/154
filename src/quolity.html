@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+	<meta name="keywords" content="<%= htmlWebpackPlugin.options.keywords %>">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- og format -->
+	<meta property="og:title" content="">
+	<!-- bar color -->
+	<meta name="theme-color" content="#fff">
+	<meta name="msapplication-navbutton-color" content="#fff">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+	<!-- favicon -->
+	<!--<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">-->
+	<!--<link rel="apple-touch-icon" href="images/apple-touch-icon152.png" sizes="152x152">-->
+	<title>Home</title>
+</head>
+<body>
+<div class="wrapper" id="wrapper">
+	<%= _.template(require('./parts/header.html'))() %>
+	<div class="app" id="app">
+
+		<section class="quolity">
+			<div class="container">
+				<div class="section-header">
+					<div class="section-header__image-wrap">
+						<div class="section-header__image">
+							<img src="/images/company/company_top_image.jpg" alt="image description">
+						</div>
+					</div>
+					<div class="section-header__box">
+						<div class="section-header__box-inner">
+							<div class="section-header__box-title">
+								<h1 class="primary-title">事業内容</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+					<div class="quolity__content inner-offset">
+					<p>全てのお客様に、安心と安全の美を届けさせていただくために、
+						化粧品GMPに基づいた品質管理を徹底し、各部署のマニュアルに沿った工程組みをし、
+						製品をお届けいたします。</p>
+
+						ul.quolity
+				</div>
+
+		</section>
+	</div>
+	<%= _.template(require('./parts/footer.html'))() %>
+</div>
+</body>
+</html>
+

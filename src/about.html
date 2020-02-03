@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+	<meta name="keywords" content="<%= htmlWebpackPlugin.options.keywords %>">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- og format -->
+	<meta property="og:title" content="">
+	<!-- bar color -->
+	<meta name="theme-color" content="#fff">
+	<meta name="msapplication-navbutton-color" content="#fff">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+	<!-- favicon -->
+	<!--<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">-->
+	<!--<link rel="apple-touch-icon" href="images/apple-touch-icon152.png" sizes="152x152">-->
+	<title>Home</title>
+</head>
+
+<body>
+<div class="wrapper" id="wrapper">
+	<%= _.template(require('./parts/header.html'))() %>
+	<div class="app" id="app">
+
+		<section class="about">
+			<div class="container">
+
+				<div class="section-header">
+					<div class="section-header__image-wrap">
+						<div class="section-header__image">
+							<img src="/images/about/about_top_image.jpg" alt="image description">
+						</div>
+					</div>
+					<div class="section-header__box">
+						<div class="section-header__box-inner">
+							<div class="section-header__box-title">
+								<h1 class="primary-title">事業内容</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="inner-offset">
+					<p class="about__text ">化粧品とは、本来女性だけでなく男性もいつまでも若々しく美しくなるために必要な物です。</p>
+					<p class="about__text ">高機能性化粧品、特殊化粧品、新規原料化粧品等、もちろん、凡用化粧品についてもお任せください。
+					</p>
+					<p class="about__text ">OEM 化粧品開発専門担当者との直接お打ち合わせ、サンプル作成をすることで、他社にないスピードかつ的確な対応が可能です。<br>
+						時代のニーズにあった化粧品を提案、薬事面からもサポートし、お客様が満足するまで徹底的にお付き合い致します。
+					</p>
+
+					<h2 class="secondary-title primary-top-offset">・化粧品・OEM・ODM</h2>
+
+					<p class="text-center">お客様のご要望にお応えし、トータルサポートさせていただきます。</p>
+
+					<ul class="about__services-list third-top-offset">
+						<li class="about__services-item">
+							<h3 class="third-title">プランニング
+								<span class="about__services-arrow">
+							<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M31.0607 13.0607C31.6464 12.4749 31.6464 11.5251 31.0607 10.9393L21.5147 1.3934C20.9289 0.807612 19.9792 0.807612 19.3934 1.3934C18.8076 1.97918 18.8076 2.92893 19.3934 3.51472L27.8787 12L19.3934 20.4853C18.8076 21.0711 18.8076 22.0208 19.3934 22.6066C19.9792 23.1924 20.9289 23.1924 21.5147 22.6066L31.0607 13.0607ZM0 13.5H30V10.5H0L0 13.5Z" fill="#D24B5A"/>
+</svg>
+						</span>
+							</h3>
+						</li>
+						<li class="about__services-item">
+							<h3 class="third-title">研究開発
+								<span class="about__services-arrow">
+							<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M31.0607 13.0607C31.6464 12.4749 31.6464 11.5251 31.0607 10.9393L21.5147 1.3934C20.9289 0.807612 19.9792 0.807612 19.3934 1.3934C18.8076 1.97918 18.8076 2.92893 19.3934 3.51472L27.8787 12L19.3934 20.4853C18.8076 21.0711 18.8076 22.0208 19.3934 22.6066C19.9792 23.1924 20.9289 23.1924 21.5147 22.6066L31.0607 13.0607ZM0 13.5H30V10.5H0L0 13.5Z" fill="#D24B5A"/>
+</svg>
+						</span>
+							</h3>
+						</li>
+						<li class="about__services-item">
+							<h3 class="third-title">資材・デザイン提案
+								<span class="about__services-arrow">
+							<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M31.0607 13.0607C31.6464 12.4749 31.6464 11.5251 31.0607 10.9393L21.5147 1.3934C20.9289 0.807612 19.9792 0.807612 19.3934 1.3934C18.8076 1.97918 18.8076 2.92893 19.3934 3.51472L27.8787 12L19.3934 20.4853C18.8076 21.0711 18.8076 22.0208 19.3934 22.6066C19.9792 23.1924 20.9289 23.1924 21.5147 22.6066L31.0607 13.0607ZM0 13.5H30V10.5H0L0 13.5Z" fill="#D24B5A"/>
+</svg>
+						</span>
+							</h3>
+						</li>
+						<li class="about__services-item">
+							<h3 class="third-title">仕様決定・お見積もり
+								<span class="about__services-arrow">
+							<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M31.0607 13.0607C31.6464 12.4749 31.6464 11.5251 31.0607 10.9393L21.5147 1.3934C20.9289 0.807612 19.9792 0.807612 19.3934 1.3934C18.8076 1.97918 18.8076 2.92893 19.3934 3.51472L27.8787 12L19.3934 20.4853C18.8076 21.0711 18.8076 22.0208 19.3934 22.6066C19.9792 23.1924 20.9289 23.1924 21.5147 22.6066L31.0607 13.0607ZM0 13.5H30V10.5H0L0 13.5Z" fill="#D24B5A"/>
+</svg>
+						</span>
+							</h3>
+						</li>
+						<li class="about__services-item">
+							<h3 class="third-title">生産
+								<span class="about__services-arrow">
+							<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M31.0607 13.0607C31.6464 12.4749 31.6464 11.5251 31.0607 10.9393L21.5147 1.3934C20.9289 0.807612 19.9792 0.807612 19.3934 1.3934C18.8076 1.97918 18.8076 2.92893 19.3934 3.51472L27.8787 12L19.3934 20.4853C18.8076 21.0711 18.8076 22.0208 19.3934 22.6066C19.9792 23.1924 20.9289 23.1924 21.5147 22.6066L31.0607 13.0607ZM0 13.5H30V10.5H0L0 13.5Z" fill="#D24B5A"/>
+</svg>
+						</span>
+							</h3>
+						</li>
+						<li class="about__services-item">
+							<h3 class="third-title">生産＝納品後フォロー</h3>
+						</li>
+
+					</ul>
+
+					<h2 class="secondary-title primary-top-offset">製造品目</h2>
+
+					<p class="text-center">お客様のご要望にお応えし、トータルサポートさせていただきます。</p>
+
+
+					<ul class="about__products-list third-top-offset">
+						<li class="about__products-item">
+							<div class="about__products-item-inner">
+								<div class="about__products-top">
+									<h2 class="secondary-title color-strong-red">基礎化粧品</h2>
+									<p class="text text-center">洗顔料・化粧水・美容液・乳液など
+										皮膚の健康を保つための基礎化粧品</p>
+								</div>
+								<div class="about__products-image-wrap">
+									<div class="about__products-image">
+										<img src="images/about/product_item_image_01.jpg" alt="image description">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="about__products-item">
+							<div class="about__products-item-inner">
+								<div class="about__products-top">
+									<h2 class="secondary-title color-strong-red">ヘア・ボディー製品</h2>
+									<p class="text text-center">シャンプー・リンスー<br>
+										・トリートメント・ボディソープ<br>
+										髪や頭皮、ボディケアのための商品</p>
+								</div>
+								<div class="about__products-image-wrap">
+									<div class="about__products-image">
+										<img src="images/about/product_item_image_01.jpg" alt="image description">
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="about__products-item">
+							<div class="about__products-item-inner">
+								<div class="about__products-top">
+									<h2 class="secondary-title color-strong-red">メイクアップ製品</h2>
+									<p class="text text-center">ファンデーション<br>
+										・リキッドファンデーション<br>
+										・アイシャドウ・リップクリーム<br>
+										・リップグロス<br>
+										外見の美を表現するための化粧品</p>
+								</div>
+								<div class="about__products-image-wrap">
+									<div class="about__products-image">
+										<img src="images/about/product_item_image_01.jpg" alt="image description">
+									</div>
+								</div>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
+	<%= _.template(require('./parts/footer.html'))() %>
+</div>
+</body>
+
+</html>
