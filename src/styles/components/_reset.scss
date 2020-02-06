@@ -95,11 +95,35 @@ body {
 }
 
 /* br fix */
-.mb {
-	@include media('<sm') {
+.pc {
+	@include media('>=md') {
 		display: block !important;
 	}
-	@include media('>=sm') {
+	@include media('<md') {
+		display: none !important;
+	}
+}
+.tb {
+	@include media('<md') {
+		display: block !important;
+	}
+	@include media('>=md') {
+		display: none !important;
+	}
+}
+.mb {
+	 @include media('<sm') {
+		 display: block !important;
+	 }
+	 @include media('>=sm') {
+		 display: none !important;
+	 }
+ }
+.xmb {
+	@include media('<xs') {
+		display: block !important;
+	}
+	@include media('>=xs') {
 		display: none !important;
 	}
 }

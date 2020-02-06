@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+	<meta name="keywords" content="<%= htmlWebpackPlugin.options.keywords %>">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- og format -->
+	<meta property="og:title" content="">
+	<!-- bar color -->
+	<meta name="theme-color" content="#fff">
+	<meta name="msapplication-navbutton-color" content="#fff">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+	<!-- favicon -->
+	<!--<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">-->
+	<!--<link rel="apple-touch-icon" href="images/apple-touch-icon152.png" sizes="152x152">-->
+	<title>Home</title>
+</head>
+
+<body>
+<div class="wrapper" id="wrapper">
+	<%= _.template(require('./parts/header.html'))() %>
+	<div class="app" id="app">
+
+		<section class="production">
+			<div class="container">
+				<div class="section-header">
+					<div class="section-header__image-wrap">
+						<div class="section-header__image">
+							<img src="/images/production/production_top_image.jpg" alt="image description">
+						</div>
+					</div>
+					<div class="section-header__box">
+						<div class="section-header__box-inner">
+							<div class="section-header__box-title">
+								<h1 class="primary-title">事業内容</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="production__content inner-offset">
+					<h2 class="secondary-title">製造室設備</h2>
+
+					<p class="production__subtitle text-center third-top-offset">・5000Lオープン釜 <br class="xmb"> ・3000Lオープン釜​</p>
+
+					<div class="production__info fourth-top-offset">
+						<div class="production__image-wrap">
+							<div class="production__image">
+								<img src="/images/production/content-image.jpg" alt="image description">
+							</div>
+						</div>
+						<p class="production__text">加熱や冷却を行い、
+							化粧水、美容液、
+							シャンプー、リンスなど
+							比較的粘度の低い
+							化粧品の製造が可能</p>
+					</div>
+
+					<p class="production__subtitle text-center third-top-offset">・5000Lオープン釜 <br class="xmb"> ・3000Lオープン釜​</p>
+
+					<div class="production__info fourth-top-offset">
+						<div class="production__image-wrap">
+							<div class="production__image">
+								<img src="/images/production/content-image.jpg" alt="image description">
+							</div>
+						</div>
+						<p class="production__text">製品を攪拌・乳化する
+							ための装置。
+							真空、加熱、冷却など、
+							化粧品製造に最適な条件を
+							保ちながら作動します。
+							スキンケア
+							（オールインワンゲル・
+							乳液・クリーム）をはじめ、
+							幅広い化粧品の
+							製造が可能です。</p>
+					</div>
+
+					<h2 class="secondary-title primary-top-offset">製造室設備</h2>
+
+					<ul class="production__filling-list third-top-offset">
+						<li class="production__filling-item">
+							<p class="production__subtitle text-center">フェイスマスク全自動充填機</p>
+							<div class="production__filling-content">
+								<div class="production__filling-image-wrap">
+									<div class="production__filling-image">
+										<img src="/images/production/content-image.jpg" alt="image description">
+									</div>
+								</div>
+								<ul class="production__filling-sublist">
+
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">原反自動供給</h3>
+									</li>
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">原反UV殺菌</h3>
+									</li>
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">原反内異物カメラ自動検出</h3>
+									</li>
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">ロット印字内容カメラ自動検出</h3>
+									</li>
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">ヒートシール不良自動検出</h3>
+									</li>
+
+								</ul>
+								<p class="production__filling-text">ヒートシール不良自動検出<br>
+									インラインで作業が可能<br class="mb">
+									製品自動計数<br class="mb">
+									（ケースコンベア）<br class="mb">
+									例：５枚セット組を作るなど<br class="mb">
+								</p>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+						<li class="production__filling-item">
+							<p class="production__subtitle text-center">フェイスマスク全自動充填機</p>
+							<div class="production__filling-content">
+								<div class="production__filling-image-wrap">
+									<div class="production__filling-image">
+										<img src="/images/production/content-image.jpg" alt="image description">
+									</div>
+								</div>
+
+								<p class="production__filling-text">様々なパウチ、原反種類に対応可能
+									小ロットから動かせます
+								</p>
+								<div class="clearfix"></div>
+							</div>
+						</li>
+						<li class="production__filling-item">
+							<p class="production__subtitle text-center">フェイスマスク全自動充填機</p>
+							<div class="production__filling-content">
+								<div class="production__filling-image-wrap">
+									<div class="production__filling-image">
+										<img src="/images/production/content-image.jpg" alt="image description">
+									</div>
+								</div>
+								<ul class="production__filling-sublist">
+
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">原反自動供給</h3>
+									</li>
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">原反UV殺菌</h3>
+									</li>
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">原反内異物カメラ自動検出</h3>
+									</li>
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">ロット印字内容カメラ自動検出</h3>
+									</li>
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">ヒートシール不良自動検出</h3>
+									</li>
+
+								</ul>
+								<p class="production__filling-text">ヒートシール不良自動検出<br class="mb">
+									インラインで作業が可能<br class="mb">
+									製品自動計数<br class="mb">
+									（ケースコンベア）<br class="mb">
+									例：５枚セット組を作るなど<br class="mb">
+								</p>
+							</div>
+						</li>
+						<li class="production__filling-item">
+							<p class="production__subtitle text-center">フェイスマスク全自動充填機</p>
+							<div class="production__filling-content">
+								<div class="production__filling-image-wrap">
+									<div class="production__filling-image">
+										<img src="/images/production/content-image.jpg" alt="image description">
+									</div>
+								</div>
+								<ul class="production__filling-sublist">
+
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">原反自動供給</h3>
+									</li>
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">原反UV殺菌</h3>
+									</li>
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">原反内異物カメラ自動検出</h3>
+									</li>
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">ロット印字内容カメラ自動検出</h3>
+									</li>
+									<li class="production__filling-subitem">
+										<h3 class="fourth-title">ヒートシール不良自動検出</h3>
+									</li>
+
+								</ul>
+								<p class="production__filling-text">ヒートシール不良自動検出<br class="mb">
+									インラインで作業が可能<br class="mb">
+									製品自動計数<br class="mb">
+									（ケースコンベア）<br class="mb">
+									例：５枚セット組を作るなど<br class="mb">
+								</p>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+		</section>
+	</div>
+	<%= _.template(require('./parts/footer.html'))() %>
+</div>
+</body>
+
+</html>
