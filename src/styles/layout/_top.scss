@@ -365,9 +365,6 @@
 		padding-bottom: 20px;
 		padding-top: 20px;
 
-		@include media('<md') {
-			align-items: center;
-		}
 
 		&:last-child {
 			border: none;
