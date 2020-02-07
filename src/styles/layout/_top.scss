@@ -35,7 +35,7 @@
 	}
 
 
-	&__item-link {
+	&__item {
 		max-width: 360px;
 		width: calc(100% / 3);
 		background-color: rgba(#d55765, 0.7);
@@ -73,7 +73,7 @@
 
 	}
 
-	&__item {
+	&__item-link {
 		display: block;
 		width: 100%;
 	}
