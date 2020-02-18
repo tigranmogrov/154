@@ -1,7 +1,8 @@
 import {disableBodyScroll, enableBodyScroll} from 'body-scroll-lock/lib/bodyScrollLock.es6';
-import {delay} from 'rxjs/operators';
+
 
 function mobileMenu() {
+
 	let hamburger = document.getElementById('hamburger-btn');
 
 	let headerNav = document.getElementById('header-nav');
@@ -46,3 +47,5 @@ function mobileMenu() {
 }
 
 mobileMenu();
+
+

@@ -1,6 +1,7 @@
 /* btn */
 .btn-wrap {
 	max-width: 430px;
+	height: 80px;
 	width: 100%;
 	background-color: #D24B5A;
 	display: flex;
@@ -10,10 +11,6 @@
 	z-index: 11;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 25px 0;
-	@include media('<sm'){
-		padding: 15px 0;
-	}
 }
 
 .circle {
