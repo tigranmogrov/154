@@ -20,29 +20,22 @@ function mobileMenu() {
 
 	function openMenu() {
 		disableBodyScroll(headerNav);
-		headerNav.style.transition = '0.4s ease 0s';
+		headerNav.style.transition = '0.4s ease-in 0s';
 		setTimeout(function () {
 			headerNav.classList.add('menu-open');
-		}, 500);
+		}, 200);
 		hamburger.classList.add('active');
 		state = true;
-		// setTimeout(function () {
-		// 	headerNav.removeAttribute('style');
-		// }, 400);
 	}
 
 	function closeMenu() {
-		headerNav.style.transition = '0.4s ease 0s';
-
+		headerNav.style.transition = '0.4s ease-in 0s';
 		setTimeout(function () {
 			headerNav.classList.remove('menu-open');
-		}, 500);
+		}, 200);
 		hamburger.classList.remove('active');
 		state = false;
 		enableBodyScroll(headerNav);
-		// setTimeout(function () {
-		// 	headerNav.removeAttribute('style');
-		// }, 400);
 	}
 }
 
