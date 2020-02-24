@@ -1,5 +1,10 @@
 import {disableBodyScroll, enableBodyScroll} from 'body-scroll-lock/lib/bodyScrollLock.es6';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({
+	once: false
+});
 
 function mobileMenu() {
 
@@ -38,6 +43,16 @@ function mobileMenu() {
 		enableBodyScroll(headerNav);
 	}
 }
+
+// document.body.onload = function () {
+// 	setTimeout(function () {
+// 		var preloader = document.getElementById("preloader");
+// 		if (!preloader.classList.contains("done")) {
+// 			preloader.classList.add("done");
+// 		}
+// 	}, 3000);
+// };
+
 
 mobileMenu();
 

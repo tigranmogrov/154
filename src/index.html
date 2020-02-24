@@ -23,9 +23,15 @@
 <div class="wrapper" id="wrapper">
 	<%= _.template(require('./parts/header.html'))() %>
 	<div class="app" id="app">
-
+<!--		<div id="preloader" class="preloader">-->
+<!--			<div class="preloader-wrap">-->
+<!--				<div class="preloader-item"></div>-->
+<!--				<div class="preloader-item"></div>-->
+<!--				<div class="preloader-item"></div>-->
+<!--				<div class="preloader-item"></div>-->
+<!--			</div>-->
+<!--		</div>-->
 		<section class="top">
-
 			<div class="top__image-wrap">
 				<div class="top__image mask" style="background-image: url(/images/index/index_top_image.jpg)">
 					<h1 class="secondary-title color-white z-index-10">
@@ -114,7 +120,9 @@
 						</a>
 					</li>
 
-					<li class="top__item">
+					<li class="top__item" data-aos="fade-up"
+							data-aos-offset="100"
+							data-aos-easing="ease-in-sine">
 						<a class="top__item-link" href="/about.html">
 							<div class="top__item-inner">
 								<h2 class="primary-title color-white">企業情報</h2>
@@ -139,7 +147,9 @@
 						</a>
 					</li>
 
-					<li class="top__item">
+					<li class="top__item" data-aos="fade-up"
+							data-aos-offset="100"
+							data-aos-easing="ease-in-sine">
 						<a class="top__item-link" href="/quality.html">
 							<div class="top__item-inner">
 								<h2 class="primary-title color-white">企業情報</h2>
